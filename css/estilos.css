@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.header-img {
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.gallery-vertical {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.gallery-item {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.gallery-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+}
+.gallery-item p {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+}
+.historia-container {
+  display: flex;
+  gap: 20px; /* Espacio entre columnas */
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.parrafo {
+  flex: 1;
+  padding: 10px;
+  margin-right: 20px; /* Espacio adicional entre columnas */
+}
+
+.parrafo:last-child {
+  margin-right: 0; /* Elimina el margen derecho del último párrafo */
+}
+
+.contactos-container {
+  display: flex;
+  gap: 20px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.contacto-item {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.contacto-item h3 {
+  margin-bottom: 10px;
+}
+
+.contacto-item p {
+  margin: 5px 0;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.social-icons img {
+  width: 30px;
+  height: auto;
+  margin: 0 10px;
+}
